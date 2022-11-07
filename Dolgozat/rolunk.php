@@ -50,13 +50,6 @@
         <head>
             <meta charset="utf-8">
     <title>
-        <?php 
-        if(isset($_GET['p'])) $p=$_GET['p'];
-	    else $p="";
-	    if	($p=="") 		$cim="Kezdolap"								;else
-	    if 	($p=="tanar") 	$cim="tanar"	    						;else
-	    print $cim;
-        ?>
     </title>
         </head>
         <font size="50">
